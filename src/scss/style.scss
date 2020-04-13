@@ -1,0 +1,28 @@
+@import "libs/normalize";
+@import "variables/variables";
+@import "mixins/mixins";
+
+*,
+*:after,
+*:before {
+  @include box-sizing(border-box);
+}
+
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.95);
+}
+
+a {
+  text-decoration: none;
+  color: #5eabed;
+}
+main {
+  flex: 1;
+}

@@ -1,0 +1,20 @@
+/* Colors */
+
+$primary_color: 	#1a1a1a;
+$main_copy: 			#595959;
+$dark_grey: 			#4A4A4A;
+
+/*	Grid system, define how many columns */
+$cols: 4;
+$col: calc(100% / #{$cols});
+$gutter: 1.5em;
+$col_pad: 2.7775em;
+
+/* Responsive Break Points */
+$sm_bp: 40em;
+$med_bp: 64em;
+$lg_bp: 87.5em;
+
+/* Animation */
+$elastic_easing : cubic-bezier(0.68, -0.55, 0.265, 1.55);
+$default_easing : cubic-bezier(.25, .01, .25, 1);

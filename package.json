@@ -1,0 +1,39 @@
+{
+  "name": "front_end_starter",
+  "version": "1.0.0",
+  "description": "Front-end starter template w. Gulp, Babel & Browserify",
+  "main": "index.html",
+  "author": "Victor Ivanov (Malt Creative) <victor@maltcreative.com.au>",
+  "license": "GPL-2.0",
+  "private": false,
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "autoprefixer": "^9.7.1",
+    "browser-sync": "^2.18.13",
+    "cssnano": "^4.1.10",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "postcss-import": "^12.0.1",
+    "rollup": "^1.26.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-shader": "^0.0.3",
+    "rollup-plugin-uglify": "^6.0.3"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "object-fit-images": "^3.2.3",
+    "simplex-noise": "^2.4.0",
+    "three": "^0.115.0",
+    "three-orbit-controls": "^82.1.0"
+  }
+}
